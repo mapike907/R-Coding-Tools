@@ -1,5 +1,4 @@
-# R-Coding-Tools
+# R-Coding-Tools - PDFs
 
-This has been created to help SAS users be able to understand R code for data analysis.
+These pdfs are also located here:https://www.rstudio.com/resources/cheatsheets/
 
-This file folder will have codes, pdfs and other various tools to help users. 
