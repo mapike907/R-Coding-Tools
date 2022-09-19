@@ -42,12 +42,6 @@ is.finite(x)
 is.infinite(x)
 is.nan(x)
 
-# Vectors have a structure and a type, and R is picky about both #
-# to find what structure (character, number, etc) use this code
-str(x)
-
-# how to find length of the vector #
-length(x)
 
 
 
