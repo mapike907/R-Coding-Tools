@@ -20,6 +20,19 @@ library(progress)
 library(DBI)
 library(glue)
 
+
+
+# Vectors have a structure and a type, and R is picky about both #
+# to find what structure (character, number, etc) use this code
+str(x)
+
+# how to find length of the vector #
+length(x)
+
+# Types of vectors: numerical, integer, logical, character, dateline, factors
+
+
+
 #' See if an expression is not in a list: True / False Response
 #'
 #' This function checks if a character string is in a list
