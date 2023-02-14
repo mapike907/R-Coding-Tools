@@ -5,19 +5,6 @@ date: "10/13/2023"
   
 # This code will provide code used for epidemiological descriptive statistics.
   
-  
-# What are some of the libraries we might need to use?
-library(tidyverse)
-library(redcapAPI)
-library(lubridate)
-library(stringr)
-library(readr)
-library(readxl)
-library(zoo)
-library(ggthemes)
-library(progress)
-library(DBI)
-library(glue)
 
 # preview the data and the first observations
 head(mydatafile)
@@ -61,6 +48,9 @@ var(mydataset$Variable.Length) # variance
 
 # for multiple variables, use lapply()
 lappy(dat[, 1:4], sd)
+
+# Barplot
+barplot(table(dat$size)) # table() is mandatory
 
 # Barplot counts, by variable and number
 counts <- table(mydata$Variable)
