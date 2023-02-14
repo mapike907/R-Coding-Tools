@@ -202,5 +202,8 @@ cases <- tbl(conn, in_schema("cases", "county")) %>%
   left_join(county_pop, by = c("countyassigned" = "group")) %>% 
   mutate(rate = round((cases/population)*100000))
 
-
+# Create a new variable 
+df %>%
+  mutate(x = c("", "NewVariable"[(date >= "2020-03-01" & 
+                                    as.character(infection) == "infectionvariableyouwant"] )
 
