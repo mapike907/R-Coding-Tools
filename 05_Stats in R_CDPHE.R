@@ -66,6 +66,8 @@ shapiro.test(iris$Sepal.Width)
 
 t.test(Sepal.Width~Species, data=iris2, var.equal=TRUE)
 
+##end of code
+
 
 
 
